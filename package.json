@@ -1,0 +1,41 @@
+{
+  "name": "syncer",
+  "version": "0.0.0",
+  "description": "Stitch & Sync multiple GraphQL APIs in real-time",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "keywords": [
+    "GraphQL",
+    "Real",
+    "time",
+    "API",
+    "Schema",
+    "stitching"
+  ],
+  "author": "Matan Tsuberi",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "axios": "^1.2.1",
+    "graphql": "^16.6.0",
+    "ioredis": "^5.2.4",
+    "ioredis-in-memory": "^1.0.1",
+    "joi": "^17.7.0",
+    "winston": "^3.8.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
